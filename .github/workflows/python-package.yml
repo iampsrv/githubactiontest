@@ -39,3 +39,10 @@ jobs:
            
       - name: Run Docker container
         run: docker run hello-world
+      - name: Push to docker Hub
+        uses: docker/build-push-action@v1
+        with:
+          username: ${{ secrets.DOCKERHUB_USERNAME }}
+          password: ${{ secrets.DOCKERHUB_PASSWORD }}
+          repository: psrv3/githubactiondh
+          tag_with_ref: true
