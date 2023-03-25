@@ -8,7 +8,7 @@ def test_factorial_2():
     assert factorial(1) == 1
 
 def test_factorial_3():
-    assert factorial(2) == 2
+    assert factorial(2) == 24
 
 def test_factorial_4():
     assert factorial(5) == 120
