@@ -1,5 +1,5 @@
 import pytest
-from my_factorial import my_factorial
+from factorial import my_factorial
 
 def test_factorial_1():
     assert my_factorial(0) == 1
