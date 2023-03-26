@@ -1,1 +1,1 @@
-print("Good Afternoon Pranjal Srivastava 123")
+print("Good Afternoon Pranjal Srivastava")
